@@ -1,27 +1,23 @@
+EVALUACIÓN 1
+<p>Copie el repositorio desde la consola, edité el archivo wcat.c, lo añadí al STAGE y 
+realicé una imagen de los cambios con el comando commit y sincrenicé el repositorio local
+con el repositorio de github con el comando push.</p>
+<img src="Tengen-Toppa-Gurren-Lagann-6.jpg">
+<a href="https://www.instagram.com/anny_stars/?hl=es"> </a>
+Lista de comandos para Clonar tu repositorio de evaluación:
+1. copiar el link del repositorio en github
+2. git clone y pegas el link del repositorio
 
-In this directory, you should write the program `wcat.c` and compile it into
-the binary `wcat` (e.g., `gcc -o wcat wcat.c -Wall -Werror`).
+Lista de comandos para adicionar el archivo wcat.c al STAGE
+1. cd evaluacion-1-Juaandangel
+2. cd dirTest
+3. cd project
+4. code .
+5. hacer los cambios en el archivo wcat.c
+6. git add wcat.c
 
-After doing so, you can run the tests from this directory by running the
-`test-wcat.sh` script. If all goes well, you will see:
+Lista de comandos para realizar commit
+1. git commit -m "Agregado el codigo de wcat.c"
 
-```sh
-prompt> ./test-wcat.sh
-test 1: passed
-test 2: passed
-test 3: passed
-test 4: passed
-test 5: passed
-test 6: passed
-test 7: passed
-prompt>
-```
-
-The `test-wcat.sh` script is just a wrapper for the `run-tests.sh` script in
-the `tester` directory of this repository. This program has a few options; see
-the relevant
-[README](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/tester/README.md)
-for details.
-
-
-
+Lista de comandos para sincronizar con el repositorio remoto
+1. git push

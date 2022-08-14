@@ -9,12 +9,13 @@ Lista de comandos para Clonar tu repositorio de evaluación:
 2. git clone y pegas el link del repositorio
 
 Lista de comandos para adicionar el archivo wcat.c al STAGE
-1. cd evaluacion-1-Juaandangel
-2. cd dirTest
-3. cd project
-4. code .
-5. hacer los cambios en el archivo wcat.c
-6. git add wcat.c
+1. git init
+2. cd evaluacion-1-Juaandangel
+3. cd dirTest
+4. cd project
+5. code .
+6. hacer los cambios en el archivo wcat.c
+7. git add wcat.c
 
 Lista de comandos para realizar commit
 1. git commit -m "Agregado el codigo de wcat.c"
